@@ -12,7 +12,7 @@ Find the maximum number of rounds the three brothers can drink.
 
 Example
 
-https://github.com/rado88x/PrimeHolding/blob/master/brothersInTheBar.png
+![alt text](https://github.com/rado88x/PrimeHolding/blob/master/brothersInTheBar.png)
 
 For glasses = [1, 1, 2, 3, 3, 3, 2, 2, 1, 1], the output should be brothersInTheBar(glasses) = 3.
 
