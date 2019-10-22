@@ -2,7 +2,8 @@
 
 # BrothersInTheBar  
 
-Problem
+Problem  
+
 Three brothers walk into a bar. All the beverages are placed in one line at the long bar table. The size of each glass is represented in an array of integers, glasses.
 
 The brothers will drink a round if they can find 3 consecutive glasses of the same size. The barman removes the empty glasses from the table immediately after each round.
