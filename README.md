@@ -73,7 +73,10 @@ Deliverables
 
 You must submit a link with your deliverables. The link can be either for cloud storage (Google Drive, OneDrive, pCloud, etc.) OR source control hosting (GitHub, GitLab, Bitbucket, etc.).
 
-Solution explanation :  
+===========================================================================================================================
+
+Solution explanation : 
+ 
 LinkedList is appropriate structure because adding and removing elements does not require to shifting elements.  
 We don't care in this scenario about the index of elements so we are traversing the list only one time.  
 Method brothersInTheBar is static so no need of creating object to access it. It accept array of integers representing the glasses volumes.  
