@@ -3,7 +3,7 @@ package marketstore;
 public class PayDesk {
     public static void purchase(Discount discount, double purchaseValue) {
 
-        if (purchaseValue < 0){
+        if (purchaseValue < 0) {
             throw new IllegalArgumentException("Invalid item price.");
         }
 

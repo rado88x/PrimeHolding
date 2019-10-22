@@ -9,14 +9,14 @@ public class Main {
         BronzeCard b2 = new BronzeCard(2, "Stefan");
         b2.setTurnover(5000);
 
-        SilverCard s1 = new SilverCard( 10, "Georgi");
+        SilverCard s1 = new SilverCard(10, "Georgi");
         s1.setTurnover(600);
-        SilverCard s2 = new SilverCard( 20, "Pavel");
+        SilverCard s2 = new SilverCard(20, "Pavel");
         s2.setTurnover(20);
 
-        GoldCard g1 = new GoldCard( 100, "Maria");
+        GoldCard g1 = new GoldCard(100, "Maria");
         g1.setTurnover(1500);
-        GoldCard g2 = new GoldCard( 200, "Gloria");
+        GoldCard g2 = new GoldCard(200, "Gloria");
         g2.setTurnover(9);
 
 

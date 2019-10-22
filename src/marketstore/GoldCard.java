@@ -6,7 +6,7 @@ public class GoldCard extends Card {
     }
 
     @Override
-    public String cardType(){
+    public String cardType() {
         return "Gold";
     }
 
