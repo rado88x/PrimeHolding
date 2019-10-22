@@ -10,6 +10,8 @@ public class BrothersInTheBar {
         int[] glasses = new int[100000];
         Arrays.fill(glasses, 7);
 
+        //int[] glasses = {1, 1, 2, 3, 3, 3, 2, 2, 1, 1};
+        //int[] glasses = {1, 1, 2, 1, 2, 2, 1, 1};
         System.out.println(brothersInTheBar(glasses));
 
     }
