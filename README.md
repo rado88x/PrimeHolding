@@ -77,6 +77,9 @@ Solution explanation :
 LinkedList is appropriate structure because adding and removing elements does not require to shifting elements.  
 We don't care in this scenario about the index of elements so we are traversing the list only one time.  
 Method brothersInTheBar is static so no need of creating object to access it. It accept array of integers representing the glasses volumes.  
+
 Adding all elements to LinkedList.  
+
 Loading glassTwoBefore and glassBefore to have a set of 3 for comparing. Variable "glass" represent the glass we are checking in this moment.  
+
 While will work until there are more than 3 glasses on the bar table or iterator has gone to last glass. On every step we check for 3 same glasses. If there are 3 same glasses counter (result) is increased, glasses are removed and iterator is repositioned. After iterator is repositioned we load again glassTwoBefore and glassBefore to have them for comparing.  
