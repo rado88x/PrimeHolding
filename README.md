@@ -73,7 +73,7 @@ Deliverables
 
 You must submit a link with your deliverables. The link can be either for cloud storage (Google Drive, OneDrive, pCloud, etc.) OR source control hosting (GitHub, GitLab, Bitbucket, etc.).
 
-===========================================================================================================================
+===============================================================================
 
 Solution explanation : 
  
