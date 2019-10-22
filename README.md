@@ -1,6 +1,38 @@
 # PrimeHolding
-MarketStore
-Task :
+
+# BrothersInTheBar  
+
+Problem
+Three brothers walk into a bar. All the beverages are placed in one line at the long bar table. The size of each glass is represented in an array of integers, glasses.
+
+The brothers will drink a round if they can find 3 consecutive glasses of the same size. The barman removes the empty glasses from the table immediately after each round.
+
+Find the maximum number of rounds the three brothers can drink.
+
+Example
+
+For glasses = [1, 1, 2, 3, 3, 3, 2, 2, 1, 1], the output should be brothersInTheBar(glasses) = 3.
+
+The brothers can start with a round of size 3, then after the glasses are cleared, a round of size 2 can be formed, followed by a round of size 1. One glass will be left at the table.
+
+Solution:
+
+LinkedList is appropriate structure because adding and removing elements does not require to shifting elements.  
+
+We don't care in this scenario about the index of elements so we are traversing the list only one time.  
+
+Method brothersInTheBar is static so no need of creating object to access it. It accept array of integers representing the glasses volumes.  
+
+Adding all elements to LinkedList.  
+
+Loading glassTwoBefore and glassBefore to have a set of 3 for comparing. Variable "glass" represent the glass we are checking in this moment.  
+
+While will work until there are more than 3 glasses on the bar table or iterator has gone to last glass. On every step we check for 3 same glasses. If there are 3 same glasses counter (result) is increased, glasses are removed and iterator is repositioned. After iterator is repositioned we load again glassTwoBefore and glassBefore to have them for comparing.  
+
+
+
+# MarketStore
+
 Assignment
 
 A market store offers to their clients three different types of discount cards: bronze, silver and gold. Each card stores information about its owner, the turnover for the previous month and the initial discount rate. With each card you can calculate the discount of the current purchase. In general this is done using the formula: value_of_purchase * discount_rate.
